@@ -12,10 +12,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Slick-slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Wow JS -->
+    <link rel="stylesheet" href="./css/animate.css">
 </head>
 
 <body>
-    <div class="header">
+    <div class="header wow fadeInDown">
         <div class="container">
             <div class="header-row">
                 <div class="header__logo">
@@ -35,7 +39,7 @@
                     </ul>
                 </div>
                 <div class="header-button">
-                    <button class="header-button__btn" type="submit">Book now</button>
+                    <button class="header-button__btn wow pulse" data-wow-delay="1s" type="submit">Book now</button>
                 </div>
             </div>
         </div>
@@ -43,13 +47,13 @@
     <div class="main">
         <div class="container">
             <div class="main-row">
-                <div class="main__logo">
+                <div class="main__logo wow fadeInLeftBig">
                     <img src="./img/main-logo.svg" alt="Logo">
                 </div>
-                <div class="main-title">
+                <div class="main-title wow fadeInUp" data-wow-duration="2s">
                     <h1>Experience the perfect combination of modern housing & natural scenery.<span>Located in Lofoten, norway</span></h1>
                 </div>
-                <div class="main-icon-mouse">
+                <div class="main-icon-mouse wow bounceInUp">
                     <img src="./img/mouse-icon.svg" alt="icon">
                 </div>
             </div>
@@ -57,15 +61,15 @@
     </div>
     <div class="main-info">
         <div class="container">
-            <div class="line-top main-info__line"></div>
+            <div class="line-top main-info__line wow fadeIn"></div>
             <div class="main-info-row">
-                <div class="main-info__left">
+                <div class="main-info__left wow fadeInLeft">
                     <p class="main-info__text">
                         The Guest House is the perfect weekend get-away housing. Located in the Norwegian archipelago, Lofoten, it's a great escape from the hustle and bustle of the city. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio
                         et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
                     </p>
                 </div>
-                <div class="main-info__right">
+                <div class="main-info__right wow fadeInRight">
                     <p class="main-info__text main-info__right-text">
                         Below you'll find information about the accommodation and what's included in the price. Don't hesitate to reach out to us vi the contact page if you have any questions around your stay.
                     </p>
@@ -80,39 +84,39 @@
         <div class="container">
             <div class="line-top">
             </div>
-            <div class="block-relax__heading">
+            <div class="block-relax__heading wow flipInX" data-wow-duration="2s">
                 <h2>The Guest House is the perfect weekend getaway cabin.</h2>
             </div>
         </div>
     </div>
-    <div class="block-img-tables">
+    <div class="block-img-tables wow zoomIn">
         <img src="./img/block-relax-img.png" alt="tables">
     </div>
     <div class="block-sleeping-arrangements">
         <div class="container">
             <div class="line-top"></div>
-            <div class="block-sleeping-arrangements__title">
+            <div class="block-sleeping-arrangements__title wow fadeInDown" data-wow-delay="1s">
                 <h3>Sleeping arrangements.</h3>
             </div>
-            <div class="block-sleeping-arrangements__text">
+            <div class="block-sleeping-arrangements__text wow slideInUp">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur.</p>
             </div>
             <div class="block-sleeping-arrangements-row">
-                <div class="block-sleeping-arrangements-item">
+                <div class="block-sleeping-arrangements-item wow fadeInUp" data-wow-delay="2s">
                     <div class="block-sleeping-arrangements-icon">
                         <img src="./img/bad-icon.svg" alt="bed">
                     </div>
                     <span class="block-sleeping-arrangements__name-product">Beds</span>
                     <p class="block-sleeping-arrangements__desc">The cabin is equipped with 12 beds, 4 of which are in bunk. The rent includes linens for all beds.</p>
                 </div>
-                <div class="block-sleeping-arrangements-item">
+                <div class="block-sleeping-arrangements-item wow fadeInUp" data-wow-delay="2s">
                     <div class="block-sleeping-arrangements-icon">
                         <img src="./img/door-icon.svg" alt="door">
                     </div>
                     <span class="block-sleeping-arrangements__name-product">Beds</span>
                     <p class="block-sleeping-arrangements__desc">The cabin is equipped with 12 beds, 4 of which are in bunk. The rent includes linens for all beds.</p>
                 </div>
-                <div class="block-sleeping-arrangements-item">
+                <div class="block-sleeping-arrangements-item wow fadeInUp" data-wow-delay="2s">
                     <div class="block-sleeping-arrangements-icon">
                         <img src="./img/bath-icon.svg" alt="bath">
                     </div>
@@ -123,6 +127,176 @@
         </div>
     </div>
     <!-- /.block-sleeping-arrangements -->
+    <div class="block-escape">
+        <div class="container">
+            <div class="line-left wow fadeInRight"></div>
+            <h3 class="block-escape__title wow fadeInRight">The perfect escape.</h3>
+            <p class="block-escape__text wow fadeInRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur.</p>
+            <div class="block-escape-row">
+                <div class="block-escape-item wow fadeInLeft">
+                    <div class="block-escape-icon">
+                        <img src="./img/kitchen-icon.svg" alt="">
+                    </div>
+                    <div class="block-escape-desc">
+                        <h4 class="block-escape__name">Modern Kitchen Appliances</h4>
+                        <p class="block-escape__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="block-escape-item wow fadeInRight">
+                    <div class="block-escape-icon">
+                        <img src="./img/conditioner-icon.svg" alt="">
+                    </div>
+                    <div class="block-escape-desc">
+                        <h4 class="block-escape__name">Air Conditioner</h4>
+                        <p class="block-escape__card-text">Nullam scelerisque aliquam odio et faucibus.</p>
+                    </div>
+                </div>
+                <div class="block-escape-item wow fadeInLeft">
+                    <div class="block-escape-icon">
+                        <img src="./img/forest-icon.svg" alt="">
+                    </div>
+                    <div class="block-escape-desc">
+                        <h4 class="block-escape__name">Outdoor Paths</h4>
+                        <p class="block-escape__card-text">Nulla rhoncus feugiat eros quis consectetur.</p>
+                    </div>
+                </div>
+                <div class="block-escape-item wow fadeInRight">
+                    <div class="block-escape-icon">
+                        <img src="./img/bag-icon.svg" alt="">
+                    </div>
+                    <div class="block-escape-desc">
+                        <h4 class="block-escape__name">Storage Solutions</h4>
+                        <p class="block-escape__card-text">Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.</p>
+                    </div>
+                </div>
+                <div class="block-escape-item wow fadeInLeft">
+                    <div class="block-escape-icon">
+                        <img src="./img/coffe-maker-icon.svg" alt="">
+                    </div>
+                    <div class="block-escape-desc">
+                        <h4 class="block-escape__name">Coffee Maker</h4>
+                        <p class="block-escape__card-text">Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
+                    </div>
+                </div>
+                <div class="block-escape-item wow fadeInRight">
+                    <div class="block-escape-icon">
+                        <img src="./img/glass-icon.svg" alt="">
+                    </div>
+                    <div class="block-escape-desc">
+                        <h4 class="block-escape__name">Cutlery Selection</h4>
+                        <p class="block-escape__card-text">Duis tristique sed lorem a vestibulum.</p>
+                    </div>
+                </div>
+                <div class="block-escape-item wow fadeInLeft">
+                    <div class="block-escape-icon">
+                        <img src="./img/mountains-icon.svg" alt="">
+                    </div>
+                    <div class="block-escape-desc">
+                        <h4 class="block-escape__name">Natural Scenery</h4>
+                        <p class="block-escape__card-text">Cras commodo consequat orci, in convallis risus egestas non.</p>
+                    </div>
+                </div>
+                <div class="block-escape-item wow fadeInRight">
+                    <div class="block-escape-icon">
+                        <img src="./img/pizza-icon.svg" alt="">
+                    </div>
+                    <div class="block-escape-desc">
+                        <h4 class="block-escape__name">Take-away Options</h4>
+                        <p class="block-escape__card-text">Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.block-escape -->
+    <div class="block-quests">
+        <div class="container">
+            <div class="line-top wow wow fadeInUp"></div>
+            <h3 class="block-quests__title wow fadeInUp">Past guests.</h3>
+            <p class="block-quests__text wow fadeInUp">Don't take our word for it! Have a look at what our previous guests say about their stay at the Guest House.</p>
+            <div class="block-quests-carousel">
+                <div class="block-quests__card wow fadeInLeft">
+                    <div class="block-quests__stars">
+                        <ul class="block-quests__stars-list">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <h4 class="block-quests__card-title">We had an amazing stay at the Guest House!</h4>
+                    <div class="block-quests__card-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
+                            et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                    </div>
+                    <span class="block-quests__card-user">Nate Davidsson</span>
+                </div>
+                <div class="block-quests__card wow fadeInRight">
+                    <div class="block-quests__stars">
+                        <ul class="block-quests__stars-list">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <h4 class="block-quests__card-title">We had an amazing stay at the Guest House!</h4>
+                    <div class="block-quests__card-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
+                            et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                    </div>
+                    <span class="block-quests__card-user">Nate Davidsson</span>
+                </div>
+                <div class="block-quests__card">
+                    <div class="block-quests__stars">
+                        <ul class="block-quests__stars-list">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <h4 class="block-quests__card-title">We had an amazing stay at the Guest House!</h4>
+                    <div class="block-quests__card-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
+                            et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                    </div>
+                    <span class="block-quests__card-user">Nate Davidsson</span>
+                </div>
+                <div class="block-quests__card">
+                    <div class="block-quests__stars">
+                        <ul class="block-quests__stars-list">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <h4 class="block-quests__card-title">We had an amazing stay at the Guest House!</h4>
+                    <div class="block-quests__card-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
+                            et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                    </div>
+                    <span class="block-quests__card-user">Nate Davidsson</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.block-quests -->
+    <div class="block-"></div>
+    <!-- /.block- -->
+    <!-- Scripts -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

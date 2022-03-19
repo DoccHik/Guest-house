@@ -117,9 +117,9 @@ body {
         &__right-text {
             margin: 0px 0px 40px 0px;
         }
-        &__line {
-            // margin: 0px 0px 32px 0px;
-        }
+        // &__line {
+        //     // margin: 0px 0px 32px 0px;
+        // }
         &__btn {
             font-size: 14px;
             font-weight: 400;
@@ -139,6 +139,12 @@ body {
     height: 8px;
     background-color: #E08631;
     margin: 0 auto;
+}
+
+.line-left {
+    width: 42px;
+    height: 8px;
+    background-color: #E08631;
 }
 
 .block {
@@ -212,6 +218,115 @@ body {
         }
         &-icon {
             margin: 0px 0px 12px 0px;
+        }
+    }
+    &-escape {
+        padding: 100px 0px 100px 0px;
+        &__title {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 36px;
+            margin: 30px 0px 12px 0px;
+        }
+        &__text {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            max-width: 554px;
+            margin: 0px 0px 30px 0px;
+        }
+        &-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        &-item {
+            flex-basis: 568px;
+            display: flex;
+            align-items: center;
+            padding: 0px 0px 15px 0px;
+            margin: 0px 0px 32px 0px;
+        }
+        &-icon {
+            margin: 0px 16px 0px 0px;
+        }
+        &__name {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            color: $dark-green-color;
+        }
+        &__card-text {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            color: #333;
+        }
+    }
+    &-quests {
+        background-color: $light-color;
+        padding: 100px 0px 70px 0px;
+        &__title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 36px;
+            color: $dark-green-color;
+            margin: 30px 0px 12px 0px;
+        }
+        &__text {
+            max-width: 572px;
+            margin: 0 auto 30px;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+            line-height: 24px;
+        }
+        &__card {
+            background-color: #fff;
+            max-width: 584px;
+            padding: 31px 31px 31px 31px;
+            margin: 0px 20px 0px 0px;
+            box-sizing: border-box;
+            border-radius: 4px;
+            &-title {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #333;
+                margin: 0px 0px 11px 0px;
+            }
+            &-text {
+                margin: 0px 0px 19px 0px;
+                p {
+                    font-size: 14px;
+                    line-height: 20px;
+                    height: 40px;
+                    overflow: auto;
+                }
+            }
+            &-user {
+                border-left: 2px solid #E08631;
+                padding: 0px 0px 0px 10px;
+            }
+        }
+        &__stars {
+            &-list {
+                display: flex;
+                list-style-type: none;
+                margin: 0px 0px 10px 0px;
+                padding: 0px 0px 0px 0px;
+                li {
+                    display: block;
+                    background-image: url(../img/star.svg);
+                    background-repeat: no-repeat;
+                    background-position: 0 0;
+                    background-size: cover;
+                    width: 18px;
+                    height: 18px;
+                    margin: 0px 1px 0px 1px;
+                }
+            }
         }
     }
 }
