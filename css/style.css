@@ -23,6 +23,7 @@ body {
     min-height: 80px;
     background-color: #52503B;
     padding: 15px 0px 15px 0px;
+    z-index: 10;
 }
 
 .header-row {
@@ -409,6 +410,102 @@ body {
     overflow: none;
     height: 100px;
     transition: 0.9s ease;
+}
+
+.block-img-table img {
+    width: 100%;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.block-together {
+    padding: 100px 0px 100px 0px;
+}
+
+.block-together-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-left {}
+
+.block-together__title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #52503B;
+    margin: 30px 0px 12px 0px;
+}
+
+.block-together__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #52503B;
+}
+
+.block-together-counter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.block-together-counter__item {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 10px 58px 0px;
+}
+
+.block-together-counter__icon {
+    margin-right: 16px;
+}
+
+.block-together-counter__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333;
+}
+
+.block-booked {
+    padding: 100px 0px 100px 0px;
+    background-color: #FAF8F0;
+}
+
+.line-top {}
+
+.block-booked__title {
+    text-align: center;
+    max-width: 533px;
+    margin: 30px auto 12px auto;
+}
+
+.block-booked__text {
+    text-align: center;
+    max-width: 533px;
+    margin: 0 auto 20px;
+}
+
+.block-booked-buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.block-booked__btn button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 16px 26px;
+    border: 4px solid #52503B;
+    border-radius: 6px;
+    background-color: #52503B;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.block-booked__btn button:hover {
+    background-color: transparent;
+    color: #52503B;
 }
 
 
