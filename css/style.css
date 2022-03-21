@@ -56,6 +56,12 @@ body {
     line-height: 20px;
     color: #fff;
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.header-menu__link:hover {
+    text-shadow: 0 0 5px #fff;
+    transition: all 0.3s ease;
 }
 
 .header-button__btn {
@@ -506,6 +512,142 @@ body {
 .block-booked__btn button:hover {
     background-color: transparent;
     color: #52503B;
+}
+
+.footer {
+    background-color: #52503B;
+    padding: 100px 0px 100px 0px;
+}
+
+.footer-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 48px 0px;
+}
+
+.footer-nav {
+    list-style-type: none;
+}
+
+.footer-nav li {
+    margin: 0px 0px 12px 0px;
+}
+
+.footer-nav__title {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px 0px 11px 0px;
+}
+
+.footer-nav__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-nav-social {
+    list-style-type: none;
+}
+
+.footer-nav-social__title {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px 0px 20px 0px;
+}
+
+.footer-social {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav-social__link {
+    color: #fff;
+    font-size: 35px;
+}
+
+.footer-letter {
+    position: relative;
+}
+
+.footer-letter__title {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer-letter__text {
+    max-width: 563px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+    margin: 0px 0px 9px 0px;
+}
+
+.footer-letter-input {
+    position: relative;
+}
+
+.footer-letter__inp {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 16px 90px 16px 30px;
+    border-radius: 8px;
+    border: none;
+    color: #52503B;
+    outline: none;
+    width: 100%;
+}
+
+.footer-letter__btn {
+    position: absolute;
+    display: block;
+    top: 11px;
+    right: 7px;
+    background-color: #52503B;
+    padding: 5px 4px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.footer-copyright {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-logo img {
+    max-width: 200px;
+    margin: 0px 0px 20px 0px;
+}
+
+.footer-logo-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+    margin: 0px 0px 20px 0px;
+}
+
+.footer-logo-contacts {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+    margin: 0px 0px 20px 0px;
 }
 
 
